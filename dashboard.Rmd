@@ -8,6 +8,13 @@ library(dplyr)
 knitr::opts_chunk$set(fig.width = 6, fig.asp = 1/3)
 ```
 Apparantly this does not work
+
+or maybe works
+
+but I doubt
+
+really 
+
 ## Column 1
 ### Carat
 ```{r}
