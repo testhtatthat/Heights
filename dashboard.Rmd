@@ -7,12 +7,15 @@ library(ggplot2)
 library(dplyr)
 knitr::opts_chunk$set(fig.width = 6, fig.asp = 1/3)
 ```
+Apparantly this does not work
 ## Column 1
 ### Carat
 ```{r}
 ggplot(diamonds, aes(carat)) + geom_histogram(binwidth = 0.1)
 ```
 ### Cut
+
+and this 
 ```{r}
 ggplot(diamonds, aes(cut)) + geom_bar()
 ```
